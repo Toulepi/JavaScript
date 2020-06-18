@@ -11,5 +11,6 @@ for (i = 1;i<10;i++){
         max = nombres[i];
     }
 }
-
 alert(`Le plus grand des nombres que vous avez saisi est ${max}`);
+
+//ce code peut-être factoriser notamment en utilisant une seule boucle for voir exo5.js

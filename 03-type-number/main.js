@@ -88,3 +88,7 @@ console.log(4 == 4);
 console.log(4 == '4');  // compare juste les valeurs
 console.log(5 === '5');  // compare les valeurs et les types
 
+console.log(4 != 4);
+console.log(4 !== '4');
+console.log(4 !== 4);
+

@@ -89,30 +89,30 @@ while (i<stagiaires.length){
 }
 */
 //FOR...OF  -----> pour accéder aux élts du tableau
-/*
+
 let stagiaires = ['Toulepi','Jeatsa','Kueta','Lonkeng','Mahery','Wouafo','Mbua','Nka'];
 
 for (let elt of stagiaires) {  // la boucle parcours le tableau stagiaires et chaque élt est stocké dans la nouvelle variable maVariable
         console.log(elt);  // affiche les elts stockés dans 'maVariable'
 }
 
- */
+
 
 //FOR...IN  ----> pour accéder aux index du tableau
-/*
+
 let stagiaires = ['Toulepi','Jeatsa','Kueta','Lonkeng','Mahery','Wouafo','Mbua','Nka'];
 for (let index in stagiaires) {
       console.log(index);
 }
-*/
+
 
 // Afficher l'index et la valeur de chaque élément du tableau
-/*
+
 let stagiaires = ['Toulepi','Jeatsa','Kueta','Lonkeng','Mahery','Wouafo','Mbua','Nka'];
 for (let index in stagiaires) {
         console.log(  `( ${index} , ${stagiaires[index]} )`  );
 }
- */
+
 
 // MOT CLE BREAK
 //+++++++++++++

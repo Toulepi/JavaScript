@@ -12,4 +12,8 @@
 
 //require('./exo-decouverte-js/Partie2/exo2.6/exo2.6.js');
 
-require('./06-strings/main');
+//require('./06-strings/main');
+
+//require('./07-Objects-functions/main');
+
+require('./exo-decouverte-js/Partie2/exo2.1/exo2.1.js');

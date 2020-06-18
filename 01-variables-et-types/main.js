@@ -16,3 +16,4 @@ typeof maVariable;  // détermination du type de la variable avec typeof
 
 let a = 45, b = -12;
 console.log(a+b);
+console.log("fin de cours du jour en javascript");
