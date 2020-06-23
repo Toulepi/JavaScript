@@ -2,7 +2,7 @@
 
 let prixLot = Math.round(Math.random() * 1001);
 console.log(`Le prix du lot est ${prixLot}`);
-let essais = 0;
+let essais = 1;
 alert(`Le jeu consiste à découvrir par essais successifs le prix d'un lot .\n Le prix du lot est compris entre 1 et 1000`);
 let prixUser;
 do{
