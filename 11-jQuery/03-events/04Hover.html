@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<h1>Je suis un paragraphe</h1>
+<script>
+    // ici mouseover a 2 arguments, la 1ere fonction pour mouse hover
+    // et la seconde pour mouse leave
+    $(document).ready(function () {
+        $('h1').mouseover(function () {
+            $(this).hide();  // sélection sur l'élément courant
+        }, function () {
+            $(this).show();
+        });
+    });
+
+</script>
+</body>
+</html>

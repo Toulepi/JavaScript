@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<h1>Je suis un paragraphe</h1>
+<script>
+    $(document).ready(function () {
+        $('h1').mouseenter(function () {
+            $(this).hide();  // sélection sur l'élément courant
+        });
+        $('h1').mouseleave(function () {
+            $(this).show();  // sélection sur l'élément courant
+        });
+
+    });
+
+</script>
+
+
+</body>
+</html>
